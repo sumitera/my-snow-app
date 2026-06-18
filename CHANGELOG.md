@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.3] - 2026-06-18
+
+### Fixed
+- Added `sys_dictionary_override` to remove mandatory enforcement on `short_description` at the server level, allowing incident form submission without the field
+
 ## [0.0.2] - 2026-06-18
 
 ### Fixed
