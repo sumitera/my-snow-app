@@ -1,4 +1,5 @@
 .DS_Store
+.now-sdk/
 .now/
 dist/
 node_modules/
