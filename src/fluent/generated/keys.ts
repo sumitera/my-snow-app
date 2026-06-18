@@ -18,6 +18,16 @@ declare global {
                         id: 'short_description_not_mandatory'
                     }
                 }
+                composite: [
+                    {
+                        table: 'sys_dictionary_override'
+                        id: 'short_description_dict_override'
+                        key: {
+                            name: 'incident'
+                            element: 'short_description'
+                        }
+                    },
+                ]
             }
         }
     }
