@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.4] - 2026-06-18
+
+### Changed
+- Updated Node.js to v24 in CI and deploy workflows
+
 ## [0.0.3] - 2026-06-18
 
 ### Fixed
