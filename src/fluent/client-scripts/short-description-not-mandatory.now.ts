@@ -11,6 +11,8 @@ ClientScript({
     appliesExtended: false,
     isolateScript: false,
     script: `function onLoad() {
-    g_form.setMandatory('short_description', false);
+    setTimeout(function() {
+        g_form.setMandatory('short_description', false);
+    }, 0);
 }`,
 })
