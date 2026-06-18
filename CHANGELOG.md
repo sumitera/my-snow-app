@@ -7,3 +7,6 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial release of Incident Helper
 - Client script to remove mandatory requirement from `short_description` on the incident form
+
+### Fixed
+- Client script now defers `g_form.setMandatory` via `setTimeout` to ensure it runs after OOB UI policies
